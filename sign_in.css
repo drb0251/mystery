@@ -1,0 +1,93 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  color: SaddleBrown;
+  background-color: Beige;
+  }
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 90%;
+  margin: 20px;
+  width: auto;
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+
+.navbar {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar li a {
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: SaddleBrown;
+  display: block;
+  transition: 0.3s;
+}
+
+.sign_form {
+  font-size: 30px;
+  background-color: PeachPuff;
+  padding: 30px;
+  display: block;
+  border: 5px solid SaddleBrown;
+  border-radius: 25px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.sign_form h3 {
+  text-align: center;
+}
+
+.sign_form button {
+  font-size: 20px;
+  padding: 15px;
+  color: SaddleBrown;
+  background-color: Beige;
+  border: 1px solid SaddleBrown;
+  border-radius: 24px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.sign_form input {
+  font-size: 20px;
+  padding: 15px;
+  background-color: Beige;
+  border: 1px solid SaddleBrown;
+  border-radius: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px; 
+  width: 50%;
+}
+
+.sign_form label {
+  padding: 15px;
+}

@@ -1,0 +1,68 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  color: SaddleBrown;
+  background-color: Beige;
+  }
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 90%;
+  margin: 20px;
+  width: auto;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 0;
+  justify-content: center;
+  align-items: center;
+
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar li a {
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: SaddleBrown;
+  display: block;
+  transition: 0.3s;
+}
+
+.contact {
+  border: 2px solid red;
+  font-size: 30px;
+  background-color: PeachPuff;
+  padding: 10px;
+  display: block;
+  border: 5px solid SaddleBrown;
+  border-radius: 25px;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.contact h3 {
+  text-align: center;
+}
+.contact p {
+  padding: 5px;
+  text-align: center;
+}
+

@@ -1,0 +1,64 @@
+body {
+  font-family: "Gill Sans", sans-serif;
+  color: SaddleBrown;
+  background-color: Beige;
+  }
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  height: 90%;
+  margin: 20px;
+  width: auto;
+  /*border: 2px solid red;*/
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center;
+}
+
+.container .heading1 {
+  display: flex;
+  /*border: 2px solid red;*/
+  height: 100%;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.heading1 h1 {
+  font-size: 60px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.navbar li {
+  float: left;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar li a {
+  text-align: center;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: SaddleBrown;
+  display: block;
+  transition: 0.3s;
+}
+
+
+
+
+
+
+
+
+
